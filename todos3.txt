@@ -1,0 +1,8 @@
+taju
+sleep
+throw
+eat
+play
+sleep
+clean
+year

@@ -1,0 +1,6 @@
+sleep
+throw
+eat
+play
+sleep
+clean
