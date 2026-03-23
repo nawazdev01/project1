@@ -5,3 +5,6 @@ play
 sleep
 clean
 breakfast
+
+hi
+learn python

@@ -16,7 +16,7 @@ while True:
         todos = functions.get_todos("todos.txt")
         todos.append(todo +"\n")
 
-        functions.write_todos("todos.txt",todos)
+        functions.write_todos(todos,"todos.txt")
 
 
     elif user_action.startswith("show"):
@@ -43,7 +43,7 @@ while True:
             new_todos= input("Enter new todo: ")
             todos[number] = new_todos + "\n"
 
-            functions.write_todos("todos.txt",todos)
+            functions.write_todos(todos,"todos.txt")
 
         except ValueError:
             print("Your command is not valid")
@@ -58,7 +58,7 @@ while True:
             number = int(user_action[9:])
             todos = functions.get_todos("todos.txt")
             todos.pop(number-1)
-            functions.write_todos("todos.txt",todos)
+            functions.write_todos(todos,"todos.txt")
 
         except IndexError:
 
