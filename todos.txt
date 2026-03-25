@@ -1,8 +1,4 @@
-sleep
-thrown garbageplay
- sleep tightclean
 breakfast
 
-hi
-study pythoneat food
-study python
+study pythonclean house
+get groceries
